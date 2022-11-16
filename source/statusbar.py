@@ -72,3 +72,6 @@ class Statusbar:
 
     def reconfigure_status_label(self):
         self._label.config()
+    
+    def hide_status_bar(self):
+        self._label.pack_forget()
